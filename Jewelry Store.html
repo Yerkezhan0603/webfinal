@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Store</title>
+    <link rel="stylesheet" href="./Jewelry Store_files/style.css">
+    <link rel="stylesheet" href="./Jewelry Store_files/all.min.css">
+    <link rel="stylesheet" href="./Jewelry Store_files/bootstrap.min.css">
+  </head>
+  <body class="bg-light text-dark">
+    <header class="row align-items-center py-3 text-light" style="width: 100%; margin: 0; background-color: #d4af37">
+      <div class="col-6 d-flex align-items-center">
+        <button class="btn btn-outline-light d-md-none me-2" id="sidebarToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <h1 class="h4 m-0">Gleam &amp; Grace</h1>
+      </div>
+      <div class="col-6 text-end">
+        <button class="btn btn-outline-light" id="toggleMode"><i class="fa fa-sun"></i></button>
+        <button class="btn btn-outline-light ms-2" id="popularJewelryBtn">
+          <i class="fas fa-gem"></i> Best Sellers
+        </button>
+      </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-lg-2 sidebar py-3" id="sidebar">
+          <h5 class="mb-3 px-3">Collections</h5>
+          <div id="collectionList" class="d-flex flex-column gap-1 px-2">
+          </div>
+        </div>
+
+        <main class="col-md-9 col-lg-10 px-4 py-3">
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 id="currentCollection">All</h4>
+            <div class="dropdown">
+              <button class="btn btn-outline-secondary dropdown-toggle sort-dropdown" type="button" id="sortDropdown" data-bs-toggle="dropdown">
+                Sort By:
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="http://127.0.0.1:5500/index.html#" data-sort="price">Price</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="http://127.0.0.1:5500/index.html#" data-sort="material">Material</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="http://127.0.0.1:5500/index.html#" data-sort="popularity">Most Popular</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="jewelryContent" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <div class="modal fade" id="jewelryModal" tabindex="-1" aria-labelledby="jewelryModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="jewelryModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="jewelryModalContent">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 text-center mb-4">
+            <h5 class="fw-bold mb-3">Contact Us</h5>
+            <p>Phone: <span>87785549087</span></p>
+            <p>Email: <span>contact@gleamandgrace.com</span></p>
+            <p>Address: <span>Astana, Kazakhstan</span></p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <p class="mb-0">© 2025 Gleam &amp; Grace - Jewelry Store</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./Jewelry Store_files/bootstrap.bundle.min.js.Без названия"></script>
+    <script src="./Jewelry Store_files/index.js.Без названия"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

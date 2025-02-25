@@ -1,0 +1,158 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "V-Shaped Diamond Necklace in White Gold",
+      "category": "Necklaces",
+      "material": "White Gold, Diamonds",
+      "price": 8000,
+      "date": "2025-01-15",
+      "views": 8640,
+      "description": "A stunning V-shaped necklace featuring a graduated row of round-cut diamonds set in white gold. A sophisticated and timeless piece perfect for elegant occasions.",
+      "img": "https://www.jared.com/productimages/processed/V-122328507_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 2,
+      "title": "Oval Sapphire and Diamond Halo Stud Earrings",
+      "category": "Earrings",
+      "material": "White Gold, Sapphire, Diamonds",
+      "price": 4000,
+      "date": "2025-01-20",
+      "views": 15340,
+      "description": "Elegant stud earrings featuring oval-cut deep blue sapphires surrounded by a halo of sparkling diamonds, set in white gold. A timeless and sophisticated accessory.",
+      "img": "https://www.jared.com/productimages/processed/V-122399405_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 3,
+      "title": "Tennis Bracelet with Emeralds and Diamonds",
+      "category": "Bracelets",
+      "material": "White Gold, Emeralds, Diamonds",
+      "price": 5000,
+      "date": "2025-01-25",
+      "views": 5390,
+      "description": "Elegant tennis bracelet made of white gold, featuring alternating emeralds and diamonds. Its classic design makes it a perfect accessory for special occasions.",
+      "img": "https://www.jared.com/productimages/processed/V-377210707_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 4,
+      "title": "Elegant Rose Gold Diamond Ring",
+      "category": "Rings",
+      "material": "Rose gold, diamonds",
+      "price": 6240,
+      "date": "2025-01-30",
+      "views": 2648,
+      "description": "This stunning rose gold ring features a large round-cut diamond at its center, flanked by channel-set baguette diamonds on both sides. A luxurious and timeless design perfect for engagements or special occasions.",
+      "img": "https://www.jared.com/productimages/processed/V-995195601_2_800.jpg?pristine=true"
+    },
+    {
+      "id": 5,
+      "title": "White Gold Diamond Twist Ring",
+      "category": "Rings",
+      "material": "White gold, diamonds",
+      "price": 1800,
+      "date": "2025-02-05",
+      "views": 1420,
+      "description": "A sophisticated white gold ring with a unique twisted band design, encrusted with small pave-set diamonds. The central round-cut diamond adds brilliance, making it an exquisite choice for any special moment.",
+      "img": "https://www.jared.com/productimages/processed/V-041406505_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 6,
+      "title": "Diamond Tennis Bracelet",
+      "category": "Bracelets",
+      "material": "18K Yellow Gold, Baguette-Cut Diamonds",
+      "price": 6000,
+      "date": "2025-02-10",
+      "views": 2270,
+      "description": "Elegant 18K yellow gold bangle bracelet featuring a row of exquisite baguette-cut diamonds. A perfect blend of modern luxury and timeless beauty.",
+      "img": "https://www.jared.com/productimages/processed/V-581599608_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 7,
+      "title": "Le Vian Pear-Cut Ruby and Diamond Ring",
+      "category": "Rings",
+      "material": "18K White Gold, Ruby, Diamonds",
+      "price": 7897,
+      "date": "2025-02-15",
+      "views": 1523,
+      "description": "A stunning pear-cut ruby set in an 18K white gold ring, surrounded by a halo of sparkling diamonds. A statement piece for any occasion.",
+      "img": "https://www.jared.com/productimages/processed/V-476949401_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 8,
+      "title": "Turquoise and Sapphire Drop Earrings",
+      "category": "Earrings",
+      "material": "18K Yellow Gold, Turquoise, Sapphires, Diamonds",
+      "price": 5200,
+      "date": "2025-02-20",
+      "views": 1390,
+      "description": "Elegant drop earrings featuring vibrant turquoise, deep blue sapphires, and sparkling diamonds.",
+      "img": "https://www.jared.com/productimages/processed/V-930812300_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 9,
+      "title": "Diamond Eternity Band",
+      "category": "Rings",
+      "material": "White Gold, Diamonds",
+      "price": 4500,
+      "date": "2025-02-25",
+      "views": 9230,
+      "description": "A classic eternity band adorned with round-cut diamonds set in a white gold band.",
+      "img": "https://www.jared.com/productimages/processed/V-900261405_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 10,
+      "title": "Amethyst and Diamond Pendant Necklace",
+      "category": "Necklaces",
+      "material": "Rose Gold, Amethyst, Diamond",
+      "price": 7500,
+      "date": "2025-03-01",
+      "views": 1970,
+      "description": "A graceful rose gold necklace featuring a pear-shaped amethyst pendant accented with sparkling diamonds in an elegant curved design.",
+      "img": "https://www.jared.com/productimages/processed/V-823238201_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 11,
+      "title": "Rose Gold Hoop Earrings",
+      "category": "Earrings",
+      "material": "Rose Gold, Diamond",
+      "price": 2500,
+      "date": "2025-03-05",
+      "views": 4310,
+      "description": "Sophisticated rose gold hoop earrings adorned with a row of brilliant diamonds, offering a perfect blend of elegance and modern style.",
+      "img": "https://www.jared.com/productimages/processed/V-930966104_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 12,
+      "title": "White Gold Diamond Bracelet",
+      "category": "Bracelets",
+      "material": "White Gold, Diamond",
+      "price": 1400,
+      "date": "2025-03-10",
+      "views": 7550,
+      "description": "Elegant white gold bracelet featuring bezel-set diamonds along a delicate chain, perfect for adding a subtle touch of luxury.",
+      "img": "https://www.jared.com/productimages/processed/V-581438708_0_800.jpg?pristine=true"
+    },
+    {
+      "id": 13,
+      "title": "White Gold Heart Diamond Pendant Necklace",
+      "category": "Necklaces",
+      "material": "White Gold, Diamond",
+      "price": 7800,
+      "date": "2025-03-15",
+      "views": 5630,
+      "description": "Romantic white gold necklace with a stunning heart-shaped diamond pendant surrounded by a halo of brilliant diamonds, ideal for a meaningful gift.",
+      "img": "https://www.jared.com/productimages/processed/V-211641509_2_800.jpg?pristine=true"
+    },
+    {
+      "id": 14,
+      "title": "White Gold Opal and Diamond Halo Stud Earrings",
+      "category": "Earrings",
+      "material": "White Gold, Opal, Diamond",
+      "price": 1200,
+      "date": "2025-03-20",
+      "views": 2340,
+      "description": "Elegant white gold stud earrings featuring a captivating round opal center stone surrounded by a halo of shimmering diamonds, perfect for a sophisticated and timeless look.",
+      "img": "https://www.jared.com/productimages/processed/V-491129704_0_800.jpg?pristine=true"
+    }
+  ]
+}
