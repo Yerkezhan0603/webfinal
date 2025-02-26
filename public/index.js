@@ -151,8 +151,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 
-
-
 class AuthManager {
     constructor() {
       this.apiUrl = "http://localhost:5000";
@@ -214,13 +212,14 @@ class AuthManager {
   
   const authManager = new AuthManager();
 
-class ThemeManager {
+  class ThemeManager {
     constructor() {
         this.body = document.body;
         this.toggleBtn = document.getElementById("toggleMode");
         this.currentTheme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
         this.icons = { light: "fa-sun", dark: "fa-moon" };
         this.applyTheme(this.currentTheme);
+        this.init();
     }
 
     applyTheme(theme) {
@@ -231,11 +230,15 @@ class ThemeManager {
     }
 
     init() {
-        this.toggleBtn.addEventListener("click", () => {
-            this.currentTheme = this.currentTheme === "light" ? "dark" : "light";
-            this.applyTheme(this.currentTheme);
-        });
+        if (this.toggleBtn) {
+            this.toggleBtn.addEventListener("click", () => {
+                this.currentTheme = this.currentTheme === "light" ? "dark" : "light";
+                this.applyTheme(this.currentTheme);
+            });
+        } else {
+            console.error("❌ Кнопка `toggleMode` не найдена.");
+        }
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => new ThemeManager().init());
+document.addEventListener("DOMContentLoaded", () => new ThemeManager());
